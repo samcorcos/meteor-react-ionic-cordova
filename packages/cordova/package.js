@@ -11,7 +11,8 @@ Package.describe({
 });
 
 Cordova.depends({
-  "org.apache.cordova.geolocation": "0.3.10"
+  "org.apache.cordova.geolocation": "0.3.12",
+  "org.apache.cordova.camera": "0.3.6"
 });
 
 Package.onUse(function(api) {
